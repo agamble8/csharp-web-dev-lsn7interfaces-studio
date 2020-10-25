@@ -14,17 +14,15 @@ namespace SpinningDiscs
         public int Rpm { get; set; }
 
 
-        public BaseDisc(string name, int capacity, string contents, string discType)
+        public BaseDisc(string name, string contents)
         {
             Name = name;
-            Capacity = capacity;
             Contents = contents;
-            DiscType = discType;
         }
 
         public void ReportInfo()
         {
-            Console.WriteLine("Disc Name: " + Name);
+            Console.WriteLine("Disc Name: " + Name + "\nContents: " + Contents);
         }
 
     }

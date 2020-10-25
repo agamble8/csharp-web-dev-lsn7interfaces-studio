@@ -4,9 +4,8 @@ using System.Text;
 
 namespace SpinningDiscs
 {
-    interface IOpticalDisc
+    public interface IOpticalDisc
     {
-        const Boolean isShiny = true; 
         void spinDisc();
 
         void insertDisc();
