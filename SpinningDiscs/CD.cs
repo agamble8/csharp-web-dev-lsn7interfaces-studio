@@ -44,6 +44,6 @@ namespace SpinningDiscs
             Console.WriteLine("Laser reads the " + DiscType + ".");
         }
         // TODO: Determine which fields, methods, and constructors can be extended from the base class and which ones
-        //  need to be declared separately. 
+        //  need to be declared separately.  
     }
 }
